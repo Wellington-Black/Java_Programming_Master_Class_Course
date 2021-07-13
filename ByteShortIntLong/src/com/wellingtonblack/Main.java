@@ -39,5 +39,15 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimun Value = " + myMinLongValue);
         System.out.println("Long Maximun Value = " + myMaxLongValue);
+
+        int myTotal = (myMinIntValue / 2);
+
+        //We use casting to avoid the error. In this case we are casting int into byte.
+        //If you don't specify type, int is assumed automatically by Java.
+
+        byte myNewByteValue = (byte)(myMinByteValue / 2);
+
+        sohrt myNewShortValues = (short) (myMinShortValue / 2);
+
     }
 }
